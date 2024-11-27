@@ -1,0 +1,35 @@
+Gateway of last resort is not set
+
+      10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
+C        10.0.0.0/24 is directly connected, GigabitEthernet0/0/0
+L        10.0.0.2/32 is directly connected, GigabitEthernet0/0/0
+C        10.1.0.0/24 is directly connected, GigabitEthernet0/0/1
+L        10.1.0.1/32 is directly connected, GigabitEthernet0/0/1
+      20.0.0.0/24 is subnetted, 4 subnets
+O E2     20.0.0.0 [110/20] via 10.0.0.1, 06:37:44, GigabitEthernet0/0/0
+O E2     20.1.0.0 [110/10] via 10.0.0.1, 06:14:22, GigabitEthernet0/0/0
+O E2     20.2.0.0 [110/10] via 10.0.0.1, 06:20:19, GigabitEthernet0/0/0
+O E2     20.3.0.0 [110/10] via 10.0.0.1, 05:47:12, GigabitEthernet0/0/0
+      30.0.0.0/24 is subnetted, 2 subnets
+O E2     30.0.0.0 [110/10] via 10.0.0.1, 05:47:12, GigabitEthernet0/0/0
+O E2     30.1.0.0 [110/10] via 10.0.0.1, 00:05:01, GigabitEthernet0/0/0
+C   A1::/64 [0/0]
+     via GigabitEthernet0/0/0, directly connected
+L   A1::2/128 [0/0]
+     via GigabitEthernet0/0/0, receive
+C   A2::/64 [0/0]
+     via GigabitEthernet0/0/1, directly connected
+L   A2::1/128 [0/0]
+     via GigabitEthernet0/0/1, receive
+OE2 B1::/64 [110/20]
+     via FE80::CE7F:76FF:FECE:9BF0, GigabitEthernet0/0/0
+OE2 B2::/64 [110/10]
+     via FE80::CE7F:76FF:FECE:9BF0, GigabitEthernet0/0/0
+OE2 B4::/64 [110/10]
+     via FE80::CE7F:76FF:FECE:9BF0, GigabitEthernet0/0/0
+OE2 C1::/64 [110/10]
+     via FE80::CE7F:76FF:FECE:9BF0, GigabitEthernet0/0/0
+OE2 C2::/64 [110/10]
+     via FE80::CE7F:76FF:FECE:9BF0, GigabitEthernet0/0/0
+L   FF00::/8 [0/0]
+     via Null0, receive

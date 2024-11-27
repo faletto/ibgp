@@ -1,0 +1,35 @@
+Gateway of last resort is not set
+
+      10.0.0.0/24 is subnetted, 2 subnets
+D EX     10.0.0.0 [170/256002816] via 30.0.0.1, 05:47:26, GigabitEthernet0/0/1
+D EX     10.1.0.0 [170/256002816] via 30.0.0.1, 00:20:18, GigabitEthernet0/0/1
+      20.0.0.0/24 is subnetted, 4 subnets
+D EX     20.0.0.0 [170/256002816] via 30.0.0.1, 05:47:26, GigabitEthernet0/0/1
+D EX     20.1.0.0 [170/256002816] via 30.0.0.1, 06:20:59, GigabitEthernet0/0/1
+D EX     20.2.0.0 [170/256002816] via 30.0.0.1, 05:47:56, GigabitEthernet0/0/1
+D EX     20.3.0.0 [170/3072] via 30.0.0.1, 06:58:22, GigabitEthernet0/0/1
+      30.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
+C        30.0.0.0/24 is directly connected, GigabitEthernet0/0/1
+L        30.0.0.2/32 is directly connected, GigabitEthernet0/0/1
+C        30.1.0.0/24 is directly connected, GigabitEthernet0/0/0
+L        30.1.0.1/32 is directly connected, GigabitEthernet0/0/0
+EX  A1::/64 [170/256002816]
+     via FE80::267E:12FF:FE4D:F770, GigabitEthernet0/0/1
+EX  A2::/64 [170/256002816]
+     via FE80::267E:12FF:FE4D:F770, GigabitEthernet0/0/1
+EX  B1::/64 [170/256002816]
+     via FE80::267E:12FF:FE4D:F770, GigabitEthernet0/0/1
+EX  B3::/64 [170/256002816]
+     via FE80::267E:12FF:FE4D:F770, GigabitEthernet0/0/1
+EX  B4::/64 [170/3072]
+     via FE80::267E:12FF:FE4D:F770, GigabitEthernet0/0/1
+C   C1::/64 [0/0]
+     via GigabitEthernet0/0/1, directly connected
+L   C1::2/128 [0/0]
+     via GigabitEthernet0/0/1, receive
+C   C2::/64 [0/0]
+     via GigabitEthernet0/0/0, directly connected
+L   C2::1/128 [0/0]
+     via GigabitEthernet0/0/0, receive
+L   FF00::/8 [0/0]
+     via Null0, receive
